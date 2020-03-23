@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 60px;
+  font-family: fantasy;
+}
+
+#maze {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: blueviolet;
+  width: 630px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+.wall {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+.cell {
+  height: 30px;
+  width: 30px;
+  /* white-space: pre; */
+}
+.start {
+  background-color: blue;
+}
+.row {
+  display: flex;
+  width: 630px;
+  height: 30px;
+  /* white-space: pre; */
+}
+#player {
+  width: 28px;
+  height: 30px;
+  position: relative;
+  /* background: gray; */
+  left: 0px;
+  top: 0px;
+}
